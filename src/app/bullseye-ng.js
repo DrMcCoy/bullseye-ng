@@ -1,15 +1,15 @@
 import { i18n } from '../utils.js'
 
-export class BullseyeApplication extends Application {
+export class BullseyeNGApplication extends Application {
   constructor(options = {}) {
     super(options)
   }
 
   static get defaultOptions() {
     const options = super.defaultOptions
-    options.title = i18n('bullseye.title')
-    options.id = "bullseye"
-    options.template = 'modules/bullseye/templates/bullseye.hbs'
+    options.title = i18n('bullseyeng.title')
+    options.id = "bullseyeng"
+    options.template = 'modules/bullseye-ng/templates/bullseye-ng.hbs'
     options.popOut = true
     options.resizable = true
     options.left = 115

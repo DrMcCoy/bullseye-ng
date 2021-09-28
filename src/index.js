@@ -1,22 +1,22 @@
-import { BullseyeApplication } from './app/bullseye.js'
+import { BullseyeNGApplication } from './app/bullseye-ng.js'
 import { i18n } from './utils.js'
 
-let bullseyeApp;
+let bullseyeNGApp;
 
 const renderApp = () => {
-  if(bullseyeApp) {
-    bullseyeApp.render()
+  if(bullseyeNGApp) {
+    bullseyeNGApp.render()
   }
 }
 
 Hooks.once('ready', () => {
-  bullseyeApp = new BullseyeApplication();
+  bullseyeNGApp = new BullseyeNGApplication();
 
   AnvilMenu.registerMenuEntry({
-    name: i18n('bullseye.open'),
-    icon: '<i class="fas fa-bullseye"></i>',
+    name: i18n('bullseyeng.open'),
+    icon: '<i class="fas fa-bullseyeng"></i>',
     condition: () => game.user.isGM,
-    callback: () => bullseyeApp.render(true)
+    callback: () => bullseyeNGApp.render(true)
   })
 })
 

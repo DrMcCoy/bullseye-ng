@@ -1,6 +1,6 @@
 {
-  "name": "bullseye",
-  "title": "Bullseye",
+  "name": "bullseye-ng",
+  "title": "Bullseye NG",
   "description": "A module to assist with finding targets",
   "author": "Victor Ling <victorling@ionshard.com>",
   "url": "https://gitlab.com/Ionshard/foundry-vtt-chatdamagebuttons-beyond20",
@@ -21,7 +21,7 @@
     "src/index.js"
   ],
   "styles": [
-    "styles/bullseye.css"
+    "styles/bullseye-ng.css"
   ],
   "manifest": "https://gitlab.com/Ionshard/foundry-vtt-bullseye/-/jobs/artifacts/master/raw/module.json?job=build-module",
   "download": "https://gitlab.com/Ionshard/foundry-vtt-bullseye/-/jobs/artifacts/master/raw/bullseye.zip?job=build-module"
