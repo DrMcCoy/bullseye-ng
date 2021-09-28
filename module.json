@@ -18,6 +18,7 @@
   "version": "0.0.0",
   "minimumCoreVersion": "0.5.0",
   "compatibleCoreVersion": "0.8.9",
+  "manifestPlusVersion": "1.2.0",
   "languages": [
     {
       "lang": "en",
