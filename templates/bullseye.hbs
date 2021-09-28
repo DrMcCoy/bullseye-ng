@@ -1,0 +1,23 @@
+<div>
+  {{#if empty}}<p class="no-players">{{localize 'bullseye.noplayers'}}</p>{{/if}}
+  {{#each players as | player | }}
+  <div class="player">
+    <div class="player-header flexrow" data-user-id="{{player._id}}">
+      <span class="player-icon"
+        style="background: {{player.color}}; border: 1px solid {{player.border}}"></span>
+      <span class="player-name {{#if player.isSelf}}self{{/if}}">
+        {{player.name}}
+        {{#if player.charname}} [{{player.charname}}] {{/if}}
+      </span>
+    </div>
+    <ul class="target-list">
+      {{#each player.targets as | target | }}
+      <li class="target flexrow {{#if target._controlled}}active{{/if}}" data-token-id="{{target.id}}">
+        <img src="{{target.actor.img}}" title="{{target.name}}" />
+        <h4 class="target-name"><a>{{target.name}}</a></h4>
+      </li>
+      {{/each}}
+    </ul>
+  </div>
+  {{/each}}
+</div>
