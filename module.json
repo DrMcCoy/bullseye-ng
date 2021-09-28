@@ -17,7 +17,7 @@
   "url": "https://gitlab.com/Ionshard/foundry-vtt-chatdamagebuttons-beyond20",
   "version": "0.0.0",
   "minimumCoreVersion": "0.5.0",
-  "compatibleCoreVersion": "0.6.0",
+  "compatibleCoreVersion": "0.8.9",
   "languages": [
     {
       "lang": "en",
