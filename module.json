@@ -2,7 +2,18 @@
   "name": "bullseye-ng",
   "title": "Bullseye NG",
   "description": "A module to assist with finding targets",
-  "author": "Victor Ling <victorling@ionshard.com>",
+  "author": "Sven \"DrMcCoy\" Hesse",
+  "authors": [
+    {
+      "name": "Sven \"DrMcCoy\" Hesse",
+      "email": "drmccoy@drmccoy.de",
+      "url": "https://drmccoy.de/"
+    },
+    {
+      "name": "Victor Ling",
+      "email": "victorling@ionshard.com"
+    }
+  ],
   "url": "https://gitlab.com/Ionshard/foundry-vtt-chatdamagebuttons-beyond20",
   "version": "1.0.3",
   "minimumCoreVersion": "0.5.0",
