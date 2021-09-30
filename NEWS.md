@@ -1,3 +1,9 @@
+Changes in Bullseye NG version 1.0.1
+====================================
+
+This is a maintenance release fixing the documentation URLs in the module.json.
+
+
 Changes in Bullseye NG version 1.0.0
 ====================================
 
