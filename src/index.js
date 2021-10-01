@@ -39,7 +39,7 @@ Hooks.once('ready', () => {
 
   AnvilMenu.registerMenuEntry({
     name: i18n('bullseyeng.open'),
-    icon: '<i class="fas fa-bullseyeng"></i>',
+    icon: '<i class="fas fa-bullseye"></i>',
     condition: () => game.user.isGM,
     callback: () => bullseyeNGApp.render(true)
   })
