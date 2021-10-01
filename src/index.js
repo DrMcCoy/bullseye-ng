@@ -56,3 +56,17 @@ Hooks.on('controlToken', (token, controlled) => {
 Hooks.on('renderPlayerList', (app, html, data) => {
   renderApp()
 })
+
+Hooks.on('getSceneControlButtons', controls => {
+  let tokenButton = controls.find(b => b.name == "token")
+  if (tokenButton) {
+    tokenButton.tools.push({
+      name: "show-bullseye-ng",
+      title: i18n('bullseyeng.open'),
+      icon: "fas fa-list-ul",
+      button: true,
+      visible: game.user.isGM,
+      onClick: () => bullseyeNGApp?.render(true)
+    });
+  }
+});
