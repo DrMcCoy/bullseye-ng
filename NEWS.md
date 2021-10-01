@@ -1,3 +1,10 @@
+Changes in Bullseye NG version 1.1.0
+====================================
+
+This release of Bulleye NG fixes the bullseye icon in the anvil menu and adds
+a new button in the token tools menu that also opens Bulleye NG.
+
+
 Changes in Bullseye NG version 1.0.1
 ====================================
 
