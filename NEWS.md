@@ -1,3 +1,13 @@
+Changes in Bullseye NG version 1.2.0
+====================================
+
+This release of Bullseye NG removed the anvil menu, since it has been unpopular
+and also broke in Foundry VTT version 9. The canonical way to open Bullseye NG
+is now by using the button in the tools menu.
+
+Foundry VTT is now fully compatible with Foundry VTT version 9.
+
+
 Changes in Bullseye NG version 1.1.0
 ====================================
 
