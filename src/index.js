@@ -2,7 +2,7 @@
  * MIT License
  *
  * Copyright (c) 2020 Victor Ling <victorling@ionshard.com>
- * Copyright (c) 2021 Sven "DrMcCoy" Hesse <drmccoy@drmccoy.de>
+ * Copyright (c) 2021-2022 Sven "DrMcCoy" Hesse <drmccoy@drmccoy.de>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -36,13 +36,6 @@ const renderApp = () => {
 
 Hooks.once('ready', () => {
   bullseyeNGApp = new BullseyeNGApplication();
-
-  AnvilMenu.registerMenuEntry({
-    name: i18n('bullseyeng.open'),
-    icon: '<i class="fas fa-bullseye"></i>',
-    condition: () => game.user.isGM,
-    callback: () => bullseyeNGApp.render(true)
-  })
 })
 
 Hooks.on('targetToken', (user, token, targeted) => {

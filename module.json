@@ -37,9 +37,6 @@
       "path": "lang/de.json"
     }
   ],
-  "scripts": [
-    "scripts/anvil-menu.js"
-  ],
   "esmodules": [
     "src/index.js"
   ],
