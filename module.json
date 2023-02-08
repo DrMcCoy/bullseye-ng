@@ -16,10 +16,10 @@
   ],
   "version": "1.2.1",
   "minimumCoreVersion": "9",
-  "compatibleCoreVersion": "10.288",
+  "compatibleCoreVersion": "10.291",
   "compatibility": {
     "minimum": 9,
-    "verified": "10.288"
+    "verified": "10.291"
   },
   "manifestPlusVersion": "1.2.0",
   "url": "https://github.com/DrMcCoy/bullseye-ng",
