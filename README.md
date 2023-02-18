@@ -10,7 +10,10 @@ Bullseye NG is based on version 1.0.3 of the original Bullseye module by
 Victor Ling and is released under the terms of the [MIT
 License](https://spdx.org/licenses/MIT.html) (aka "Expat License").
 
-[Bullseye NG itself can be found on GitHub here.](https://github.com/DrMcCoy/bullseye-ng)
+Bullseye NG can be found in the following places:
+- [Bullseye NG repository on GitHub](https://github.com/DrMcCoy/bullseye-ng)
+- [Bullseye NG on the FoundryVTT website](https://foundryvtt.com/packages/bullseye-ng)
+- [Bullseye NG on Foundry Hub](https://www.foundryvtt-hub.com/package/bullseye-ng/)
 
 
 How to use Bullseye NG
