@@ -1,6 +1,8 @@
 Bullseye NG
 ===========
 
+![Supported Foundry Versions](https://img.shields.io/endpoint?url=https://foundryshields.com/version?url=https://github.com/DrMcCoy/bullseye-ng/releases/latest/download/module.json) ![Latest Release Download Count](https://img.shields.io/github/downloads/DrMcCoy/bullseye-ng/latest/module.zip) [![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2Fbullseye-ng&colorB=4aa94a)](https://forge-vtt.com/bazaar#package=bullseye-ng) [![Foundry Hub Endorsements](https://img.shields.io/endpoint?logoColor=white&url=https%3A%2F%2Fwww.foundryvtt-hub.com%2Fwp-json%2Fhubapi%2Fv1%2Fpackage%2Fbullseye-ng%2Fshield%2Fendorsements)](https://www.foundryvtt-hub.com/package/bullseye-ng/) ![Repository License](https://img.shields.io/github/license/DrMcCoy/bullseye-ng)
+
 Bullseye NG is a [Foundry VTT](https://foundryvtt.com/) add-on module assisting
 the GM in keeping an overview over which tokens have been targetted by each
 player. It does that by offering an UI element that displays all players and
